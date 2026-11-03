@@ -212,8 +212,3 @@ torchrun --nproc_per_node=2 kaggle/train_qwen3_8b.py \
 | **Project Operating Rules**    | [`AGENTS.md`](AGENTS.md)                                               | Core mission, academic metric standards, and 11 non-negotiables |
 
 ---
-
-## 8. Responsible Security Research & Disclaimer
-
-> [!CAUTION]
-> **Dual-Use & Ethical Notice**: The artifacts, datasets, and models provided in this repository are developed strictly for **authorized defensive cybersecurity research, vulnerability assessment, educational red-teaming, and system hardening**. Users are solely responsible for ensuring compliance with all local, state, federal, and international cyber laws. Unauthorized scanning, exploitation, or attacking of networks without prior written permission is strictly prohibited.

@@ -1,0 +1,24 @@
+{
+  "model_id": "qwen3-8b-offensive-cyber-agent",
+  "base_model": "Qwen/Qwen3-8B",
+  "evaluation_track": "Track 2: Cybersecurity Reasoning",
+  "total_test_samples": 130,
+  "metrics": {
+    "pass_rate": 0.4462,
+    "pass_rate_pct": "44.62%",
+    "factual_correctness_rate": 0.5077,
+    "factual_correctness_rate_pct": "50.77%",
+    "concept_f1": 0.6142,
+    "concept_precision": 0.655,
+    "concept_precision_pct": "65.50%",
+    "concept_recall": 0.5782,
+    "concept_recall_pct": "57.82%",
+    "token_f1": 0.4865,
+    "token_precision": 0.5071,
+    "token_recall": 0.4952,
+    "composite_reasoning_score": 0.5392,
+    "zero_tool_compliance_rate_percent": 100.0,
+    "zero_tool_violations_count": 0
+  },
+  "status": "EVALUATION_COMPLETE"
+}

@@ -1,0 +1,51 @@
+{
+  "benchmark_name": "Qwen3-8B Offensive Cyber Agent Tri-Track Benchmark",
+  "curriculum_ratio": {
+    "exploit": 0.60,
+    "reasoning": 0.20,
+    "tool_replay": 0.20
+  },
+  "overall_weighted_metrics": {
+    "weighted_precision": 0.8714,
+    "weighted_precision_pct": "87.14%",
+    "weighted_recall": 0.7520,
+    "weighted_recall_pct": "75.20%",
+    "weighted_f1": 0.8028,
+    "weighted_f1_pct": "80.28%"
+  },
+  "tracks": {
+    "exploit": {
+      "weight": 0.60,
+      "dialogues": 390,
+      "total_turns": 3095,
+      "precision": 0.9760,
+      "recall": 0.7652,
+      "f1": 0.8579,
+      "adaptive_pivot_rate": 1.0,
+      "syntax_validity": 0.9976
+    },
+    "reasoning": {
+      "weight": 0.20,
+      "dialogues": 130,
+      "total_samples": 130,
+      "precision": 0.6550,
+      "recall": 0.5782,
+      "f1": 0.6142,
+      "pass_rate": 0.4462,
+      "zero_tool_compliance": 1.0
+    },
+    "tool_replay": {
+      "weight": 0.20,
+      "dialogues": 130,
+      "total_turns": 479,
+      "precision": 0.7738,
+      "recall": 0.8864,
+      "f1": 0.8263,
+      "schema_validity": 1.0
+    }
+  },
+  "total_holdout_dialogues": 650,
+  "total_holdout_turns": 3704,
+  "decontamination_status": "0 confirmed leaks across all splits"
+}
+

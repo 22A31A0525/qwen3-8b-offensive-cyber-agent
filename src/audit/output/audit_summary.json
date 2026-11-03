@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-10-31T15:31:57.499835+00:00",
+  "total_pairs_flagged": 59159,
+  "counts_by_classification": {
+    "confirmed_leakage": 18,
+    "tool_observation_leakage": 21,
+    "cross_split_duplicate": 0,
+    "metadata_collision": 0,
+    "within_split_duplicate": 39274,
+    "suspected_high": 6,
+    "suspected_medium": 62,
+    "suspected_low": 17412,
+    "benign_overlap": 2286,
+    "needs_human_review": 80
+  },
+  "counts_by_severity": {
+    "critical": 39,
+    "high": 6,
+    "medium": 39416,
+    "low": 19698
+  },
+  "counts_by_pairwise_split": {
+    "train_test": 10055,
+    "train_val": 8644,
+    "val_test": 1186,
+    "train_train": 38129,
+    "val_val": 504,
+    "test_test": 641
+  },
+  "cross_split_contamination_total": 45,
+  "within_split_duplicates_total": 39274,
+  "dataset_metadata": {
+    "checksums": {
+      "train.jsonl": "098dbee87a570101e0902adabcecca35862bd44b5c31be0cfb07d6b1c4b19b1d",
+      "val.jsonl": "07578d14eecc5bad071c50f8e67579ea76166698b81379a56e215d01695d798a",
+      "test.jsonl": "fabd494f98bd5e79e81c3b6e3c740db99a1b0d5abcfd0d2e40a72606721f02d5"
+    },
+    "counts": {
+      "train.jsonl": 5200,
+      "val.jsonl": 650,
+      "test.jsonl": 650
+    },
+    "total_dialogues": 6500,
+    "eval_flags_indexed": 0,
+    "ngram_threshold": 0.5,
+    "minhash_threshold": 0.65
+  }
+}

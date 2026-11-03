@@ -1,0 +1,45 @@
+# Large datasets
+*.jsonl
+*.parquet
+data/
+
+# Archives & Legacy
+archive/
+legacy/
+scratch/
+outputs/
+logs/
+scores/
+reports/
+eval_predictions/
+final_analysis/
+kaggle_deploy_*/
+hf_adapter_download/
+v3_pipeline/
+
+# Python & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.vscode/
+
+# Antigravity / Agent tooling
+.agent/
+.superpowers/
+
+# Internal docs (not for push)
+docs/
+v3_pipeline/docs/
+
+# Secrets & Environment
+.env
+.env.*
+!.env.example
+*.token
+*.key
+kaggle_auth_dataset/
+v3_pipeline/kaggle_auth_dataset/
+v3_pipeline/kaggle_eval_*/*.ipynb
+
+

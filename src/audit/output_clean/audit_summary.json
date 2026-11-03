@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-10-31T16:35:50.546653+00:00",
+  "total_pairs_flagged": 59156,
+  "counts_by_classification": {
+    "confirmed_leakage": 15,
+    "tool_observation_leakage": 21,
+    "cross_split_duplicate": 0,
+    "metadata_collision": 0,
+    "within_split_duplicate": 39274,
+    "suspected_high": 6,
+    "suspected_medium": 62,
+    "suspected_low": 17412,
+    "benign_overlap": 2286,
+    "needs_human_review": 80
+  },
+  "counts_by_severity": {
+    "critical": 36,
+    "high": 6,
+    "medium": 39416,
+    "low": 19698
+  },
+  "counts_by_pairwise_split": {
+    "train_test": 10055,
+    "train_val": 8642,
+    "val_test": 1185,
+    "train_train": 38129,
+    "val_val": 504,
+    "test_test": 641
+  },
+  "raw_cross_split_critical_total": 36,
+  "raw_cross_split_high_total": 6,
+  "reconciled_benign_critical": 36,
+  "reconciled_benign_high": 6,
+  "unreconciled_critical_total": 0,
+  "unreconciled_high_total": 0,
+  "cross_split_contamination_total": 0,
+  "within_split_duplicates_total": 39274,
+  "dataset_metadata": {
+    "checksums": {
+      "train.jsonl": "210d9989969caa3102a1ee3c61e279b5837b4e2c807fdc73a54bc334e96ad465",
+      "val.jsonl": "95e7def8fc6b03362d4fdff507c781ff7613ab0dbf03b20ed257974e7d41bdfd",
+      "test.jsonl": "fabd494f98bd5e79e81c3b6e3c740db99a1b0d5abcfd0d2e40a72606721f02d5"
+    },
+    "counts": {
+      "train.jsonl": 5200,
+      "val.jsonl": 650,
+      "test.jsonl": 650
+    },
+    "total_dialogues": 6500,
+    "eval_flags_indexed": 0,
+    "ngram_threshold": 0.5,
+    "minhash_threshold": 0.65
+  },
+  "gate_verdict": "PASS: No confirmed cross-split leakage remaining under the completed audit (All Automated Critical Flags Clinically Reconciled as Benign Scaffolding)"
+}

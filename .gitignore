@@ -1,7 +1,16 @@
-# Large datasets
-*.jsonl
+# Raw datasets & local uncompressed jsonl files
 *.parquet
-data/
+*.jsonl
+/data/raw/
+/data/deduplicated/
+/data/self_generated/
+/data/clean/
+src/audit/output*/
+
+# Strictly track compressed archives and documentation
+!data/clean.zip
+!data/README.md
+!results/predictions.zip
 
 # Archives & Legacy
 archive/
@@ -41,5 +50,3 @@ v3_pipeline/docs/
 kaggle_auth_dataset/
 v3_pipeline/kaggle_auth_dataset/
 v3_pipeline/kaggle_eval_*/*.ipynb
-
-
